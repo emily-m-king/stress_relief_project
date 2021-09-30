@@ -7,41 +7,63 @@
 <head>
 	<meta charset="utf-8">
 	<title>Healthy Eating</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" 
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <nav>
-      <ul>
-        <li>
-         <a href="index.html">Index</a>
-        </li>
-         <li>
-         <a href="about_page.html">About Page</a>
-        </li>
-
-        <li>
-          <a href="exercise.html">Exercise Page</a>
-        </li>
-        <li>
-          <a href="power_naps.html">Power Naps Page</a>
-        </li>
-
-        <li>
-          <a href="me_time.html">Me Time</a>
-        </li>
-        <li>
-         <a href="eating_healthy_diet.html">Eating Healthy Diet</a>
-         </li>
-      </ul>
-    </nav>
-    <header>Unwinding from Stress</header>
+   <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid"  id="navbarColor01">
+        <a class="navbar-brand" href="#">Unwinding from Stress</a>
+        <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_page.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercise.html">Exercise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="power_naps.html">Power Naps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="me_time.html">Me Time</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="eating_healthy_diet.html">Eating Healthy</a>
+            </li>            
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
     <h1>Through Healthy Diet</h1>
 	<p>Since stress negatively affects blood pressure and blood flow, a healthy diet can help improve blood flow in the body. Cortisol, also known as the stress hormone, helps reduce inflammation, regulates sleep cycle, and controls blood pressure. Intaking foods with low fat and high protein allows the body to balance our stress levels. 
 	<br />
 	Some foods that can help improve blood flow include omega-3s, vitamin B, and magnesium.
 	</p>
-		<!-- Nav section -->
-	    	<a href="https://www.abbott.com/corpnewsroom/nutrition-health-and-wellness/healthy-diet-can-reduce-stress.html#:~:text=%22Eating%20a%20healthy%20diet%20can,helping%20to%20reduce%20weight%20gain.%22">Food Options List</a>
+				<a type="button" class="btn btn-primary" href="https://www.abbott.com/corpnewsroom/nutrition-health-and-wellness/healthy-diet-can-reduce-stress.html#:~:text=%22Eating%20a%20healthy%20diet%20can,helping%20to%20reduce%20weight%20gain.%22">Food Options List</a>
 			
 		<br />
 			
@@ -65,7 +87,7 @@
 
 			<h2>Best foods for Magnesium</h2>
 
-			<table>
+			<table class="table">
   				<thead>
     					<tr>
       						<th>Food</th>
@@ -108,6 +130,10 @@
 	<footer>
 	&copy; 2021 by Delefine &amp; Luwam
 	</footer>
-
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous">
+  </script>
 </body>
 </html>

@@ -6,54 +6,90 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-			
 	<title>Me Time</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" 
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 </head>
 
 <body>
-    <nav>
-      <ul>
-        <li>
-         <a href="index.html">Index</a>
-        </li>
-         <li>
-         <a href="about_page.html">About Page</a>
-        </li>
-
-        <li>
-          <a href="exercise.html">Exercise Page</a>
-        </li>
-        <li>
-          <a href="power_naps.html">Power Naps Page</a>
-        </li>
-
-        <li>
-          <a href="me_time.html">Me Time</a>
-        </li>
-        <li>
-         <a href="eating_healthy_diet.html">Eating Healthy Diet</a>
-         </li>
-      </ul>
-    </nav>
-    <header>Unwinding from Stress</header>
-    <img src="images/netflix.png" alt="netflix" />
-  <h1>Through Me Time</h1>
-	<p>“Me Time” includes anything that you feel like doing when you feel stressed and overwhelmed. These small activities keep your mind active and not limit your options. Stress relief activities can be whatever you want it to be.</p>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid"  id="navbarColor01">
+        <a class="navbar-brand" href="#">Unwinding from Stress</a>
+        <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about_page.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="exercise.html">Exercise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="power_naps.html">Power Naps</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="me_time.html">Me Time</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="eating_healthy_diet.html">Eating Healthy</a>
+            </li>            
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+  <div class="container">
+    
+    <h1>Through Me Time</h1>
+<div class="row">
+  <div class="col-8">
+    <h3>Listening to Music</h3>
+    <p>According to the University of Nevada Ren’s counseling services department, different speeds of music create different emotions. Faster music can make you feel alert and concentrate better. Upbeat music can make you feel more optimistic and a slower tempo can relax your muscles and make you feel soothed.</p>
+    <h3>Getting a Pedi and Meni</h3>
+    <p>When feeling overwhelmed, messages and looking good can boost someone’s mood and confidence. The near-hour experience can reduce the stress a person is experiencing due to the relaxed environment. Using products like eucalyptus and&sol; or peppermint Epsom salt can add to the stress relief.</p>
+    <h3>Binge Hulu/Netflix</h3>
+    <p>Sometimes you just need to sit and watch your favorite shows. You do not need to be doing physical activities. When you are watching a show or a movie, your mind is more focused on the plot of the story that you temporarily forget everything outside of the storyline.</p>
+</div>
+  <div class="col-4">
+    <div class="card" style="width: 40rem;">
+            <img src="images/netflix.png" class="card-img-top" alt="Netflix">
+            <div class="card-body">
+              <h5 class="card-title">Me Time</h5>
+                 <p class="card-text">“Me Time” includes anything that you feel like doing when you feel stressed and overwhelmed. These small activities keep your mind active and not limit your options. Stress relief activities can be whatever you want it to be.</p>
+            </div>
+        </div>
+      </div>
 	
-
-
-<h3>Listening to Music</h3>
-<p>According to the University of Nevada Ren’s counseling services department, different speeds of music create different emotions. Faster music can make you feel alert and concentrate better. Upbeat music can make you feel more optimistic and a slower tempo can relax your muscles and make you feel soothed.</p>
-<h3>Getting a Pedi and Meni</h3>
-<p>When feeling overwhelmed, messages and looking good can boost someone’s mood and confidence. The near-hour experience can reduce the stress a person is experiencing due to the relaxed environment. Using products like eucalyptus and&sol; or peppermint Epsom salt can add to the stress relief.</p>
-<h3>Binge Hulu/Netflix</h3>
-<p>Sometimes you just need to sit and watch your favorite shows. You do not need to be doing physical activities. When you are watching a show or a movie, your mind is more focused on the plot of the story that you temporarily forget everything outside of the storyline.</p>
-
-<br />
+</div>
+    <br />
 
 	<footer>
 	&copy; 2021 by Delefine &amp; Luwam
 	</footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+          crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
